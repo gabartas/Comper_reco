@@ -1,0 +1,315 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"$id": "http://yourdomain.com/schemas/myschema.json",
+	
+	"definitions": {
+		"intention": {
+			"$id": "#/definitions/intention",
+			"type": "string",
+			"enum": ["None", "Pre_requis", "Decouverte", "Remediation", "Renforcement", "Revision", "Approfondissement"]
+		},
+		"relation": {
+			"$id": "#/definitions/relation",
+			"type": "string",
+			"enum": ["emptyRel", "isComposedOf", "composes", "comprises", "isComprisedIn", "hasKnowledge", "isKnowledgeOf", "hasLearning", "isLearningOf", "isSkillOf", "hasSkill", "hasTraining", "isTrainingOf", "isComplexifiedBy", "isComplexificationOf", "isLeverOfUnderstandingOf", "isUnderstoodBy", "isRequiredBy", "requires"]
+		},
+		"tagSelection": {
+			"$id": "#/definitions/tagSelection",
+			"type": "string",
+			"enum": ["None", "Tag_a_travailler", "Tag_prerequis", "Tag_decouverte", "Tag_remediation", "Tag_renforcement", "Tag_revision", "Tag_approfondissement"]
+		}
+	},
+	
+	"type": "object",
+	"properties": {
+		"pedagogic_strategy" : {
+			"type": "object",
+			"properties": {
+				"Object_id": {
+					"type": "string",
+					"pattern": "^SP[0-9]+"
+				},
+				"Object_name": {"type": "string"},
+				"Object_class": {
+					"type": "string",
+					"const": "pedagogic_strategy"
+				},
+				"Object_type": {
+					"type": "string",
+					"enum": ["comper", "expert"]
+				},
+				"Object_description": {"type": "string"},
+				"components": {
+					"type": "array",
+					"items": {"type": "string"},
+					"uniqueItems": true
+				},
+				"content": {
+					"type": "object",
+					"properties": {
+						"selection": {
+							"type": "object",
+							"properties": {
+								"weightInitObjectif": {
+									"type": "string",
+									"pattern": "[0-9]+"
+								},
+								"rulesKSC": {
+									"type": "array",
+									"items": {
+										"type": "string",
+										"pattern": "^RS[0-9]+"
+									},
+									"uniqueItems": true
+								},
+								"alpha": {
+									"type": "string",
+									"pattern": "[-]?([0-9]+[.]{1})?[0-9]+"
+								},
+								"weight_r": {
+									"type": "object",
+									"items": {
+										"type": "object",
+										"propertyNames": {
+											"$ref": "#/definitions/intention"
+										},
+										"patternProperties": {
+											".*": {
+												"type": "object",
+												"propertyNames": {
+													"$ref": "#/definitions/relation"
+												},
+												"patternProperties": {
+													".*": {
+														"type": "string",
+														"pattern": "[-]?([0-9]+[.]{1})?[0-9]+"
+													}
+												}
+											}
+										}
+									}
+								}
+							},
+							"additionalProperties": false,
+							"required": ["weightInitObjectif", "rulesKSC", "weight_r"]
+						},
+						"ordonnancement": {
+							"type": "object",
+							"properties": {
+								"prioTags": {
+									"type": "object",
+									"propertyNames": {
+										"$ref": "#/definitions/intention"
+									},
+									"patternProperties": {
+										".*": {
+											"type": "object",
+											"propertyNames": {
+												"$ref": "#/definitions/tagSelection"
+											},
+											"patternProperties": {
+												".*": {
+													"type": "string",
+													"pattern": "[0-9]+"
+												}
+											}
+										}
+									}
+								}
+							},
+							"additionalProperties": false,
+							"required": ["prioTags"]
+						}
+					},
+					"additionalProperties": false,
+					"required": ["selection", "ordonnancement"]
+				}
+			},
+			"additionalProperties": false,
+			"required": ["Object_id", "Object_name", "Object_class", "Object_type", "Object_description", "components", "content"]
+		},
+		
+		"selection_rules": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Object_id": {
+						"type": "string",
+						"pattern": "^RS[0-9]+"
+					},
+					"Object_name": {"type": "string"},
+					"Object_class": {
+						"type": "string",
+						"const": "selection_rule"
+					},
+					"Object_type": {
+						"type": "string",
+						"enum": ["comper", "expert"]
+					},
+					"Object_description": {"type": "string"},
+					"components": {
+						"type": "array",
+						"items": {"type": "string"},
+						"uniqueItems": true
+					},
+					"target": {
+						"type": "string",
+						"enum": ["KSC", "ressources"]
+					},
+					"content": {
+						"type": "object",
+						"properties": {
+							"condition_personnalisation": {
+								"type": "array",
+								"items": {"$ref": "#/definitions/intention"},
+								"uniqueItems": true
+							},
+							"initialisation": {
+								"type": "object",
+								"properties": {
+									"relations" : {
+										"type": "array",
+										"items": {"$ref": "#/definitions/relation"}
+									},
+									"profondeur" : {
+										"type": "integer",
+										"minimum": 0
+									}
+								},
+								"additionalProperties": false,
+								"required": ["relations", "profondeur"]
+							},
+							"pre_traitement": {
+								"type": "object",
+								"properties": {
+									"cible_selection": {
+										"type": "object",
+										"properties": {
+											"relation": {"$ref": "#/definitions/relation"},
+											"src": {
+												"type": "string",
+												"enum": ["n", "n2"]
+											}, 
+											"dest": {
+												"type": "string",
+												"enum": ["n", "n2"]
+											}
+										},
+										"additionalProperties": false,
+										"required": ["relation", "src", "dest"]
+									},
+									"condition_selection": {
+										"type": "string"
+									},
+									"message_erreur": {"type": "string"}
+								},
+								"additionalProperties": false,
+								"required": ["cible_selection", "condition_selection", "message_erreur"]
+							},
+							"traitement" : {
+								"type": "object",
+								"properties": {
+									"regles_traitement" : {
+										"type": "array",
+										"items": {
+											"type": "string",
+											"pattern": "^RT[0-9]+"
+										},
+										"uniqueItems": true
+									},
+									"beta_enseignant" : {
+										"oneOf": [
+											{
+												"type": "array",
+												"items": {
+													"type": "string",
+													"pattern": "[0-9]+"
+												},
+												"uniqueItems": true
+											},
+											{
+												"type": "array",
+												"items": {
+													"type": "string",
+													"pattern": "0"
+												}
+											}
+										]
+									}
+								},
+								"additionalProperties": false,
+								"required": ["regles_traitement", "beta_enseignant"]
+							}
+						},
+						"additionalProperties": false,
+						"required": ["condition_personnalisation", "initialisation", "pre_traitement", "traitement"]
+					}
+				},
+				"additionalProperties": false,
+				"required": ["Object_id", "Object_name", "Object_class", "Object_type", "Object_description", "components", "target", "content"]
+			}
+		},
+		
+		"treatment_rules": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Object_id": {	
+						"type": "string",
+						"pattern": "^RT[0-9]+"
+					},
+					"Object_name": {"type": "string"},
+					"Object_class": {
+						"type": "string",
+						"const": "treatment_rule"
+					},
+					"Object_type": {
+						"type": "string",
+						"enum": ["comper", "expert"]
+					},
+					"Object_description": {"type": "string"},
+					"components": {
+						"type": "array",
+						"items": {"type": "string"},
+						"uniqueItems": true
+					},
+					"target": {
+						"type": "string",
+						"enum": ["KSC", "ressources"]
+					},
+					"content": {
+						"type": "object",
+						"properties": {
+							"condition_traitement": {"type": "string"},
+							"selection": {
+								"type": "object",
+								"properties": {
+									"isSelected" : {"type": "boolean"},
+									"tagSelection" : {"$ref": "#/definitions/tagSelection"}
+								},
+								"additionalProperties": false,
+								"required": ["isSelected", "tagSelection"]
+							},
+							"recursion": {
+								"type": "object",
+								"properties": {
+									"hasRecursion" : {"type": "boolean"},
+									"intention" : {"$ref": "#/definitions/intention"}
+								},
+								"additionalProperties": false,
+								"required": ["hasRecursion", "intention"]
+							},
+							"message_erreur": {"type": "string"}
+						},
+						"additionalProperties": false,
+						"required": ["condition_traitement", "selection", "recursion", "message_erreur"]
+					}
+				},
+				"additionalProperties": false,
+				"required": ["Object_id", "Object_name", "Object_class", "Object_type", "Object_description", "components", "target", "content"]
+			}
+		}
+	}
+}

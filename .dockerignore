@@ -1,0 +1,12 @@
+__pycache__
+.pytest_cache
+.coverage
+.venv
+logs/*
+tests
+.git
+.gitgnore
+.gitlab-ci.yaml
+.dockerignore
+requirements.txt
+Dockerfile

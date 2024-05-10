@@ -1,0 +1,14 @@
+{
+  "LOG_LEVEL" : "DEBUG",
+  "DATETIME_FMT_STR"  :  "%Y-%m-%d %H:%M:%S",
+  "PERMANENT_SESSION_LIFETIME"  :  "",
+  "HOST" : "127.0.0.1",
+  "PORT" : 4000,
+
+  "SCHEMA_PS_FILE"  :  "./resources/grammar/grammar_v3.schema.json",
+  "DATA_PATH"  :  "./data/",
+  "DEFAULT_LOGFILE" : "./data/LOG/traces.txt",
+  "PROFILE_URL" : "http://127.0.0.1:5000",
+  "PROFILE_PATH" : "/api/profile/recommendation/index.php",
+  "STRATEGY_NAME" : "PS_0"
+}

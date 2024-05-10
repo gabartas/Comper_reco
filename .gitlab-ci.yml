@@ -1,0 +1,67 @@
+# Tagged releases of Python docker images can be found at:
+# https://hub.docker.com/r/library/python/tags/
+image:
+    name: python:latest
+#    entrypoint: [ '/bin/bash', '-c', 'ln -snf /bin/bash /bin/sh && /bin/bash -c $0' ]
+# Change pip's cache directory to be inside the project directory since we can
+# only cache local items.
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+# # Pip's cache doesn't store the python packages
+# # https://pip.pypa.io/en/stable/reference/pip_install/#caching
+# #
+# # If you want to also cache the installed packages, you have to install
+# # them in a virtualenv and cache it as well.
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+default:
+  tags:
+    - liris
+
+before_script:
+  - echo "Coucouc Eric"
+  - python --version  ; pip --version # Print out python version for debugging
+  - python -m venv venv
+  - source venv/bin/activate
+  - pip install -r requirements.txt
+  - pip install -U setuptools
+
+stages:
+  - Static Analysis
+  - Security
+  - Test
+
+flake8:
+  stage: Static Analysis
+  script:
+  - python -m flake8 --ignore=E501 --max-line-length=150 --max-complexity 10 *.py 
+
+isort:
+  stage: Static Analysis
+  script:
+  - python -m isort . --lines-after-imports 2 --check-only
+
+bandit:
+  stage: Security
+  script:
+    - bandit -r recommandations -c tests/bandit-config.yaml
+
+safety:
+  stage: Security
+  script:
+  - safety check
+
+pytest:
+  stage: Test
+  script:
+  - python -m pytest -s
+
+coverage:
+  stage: Test
+  script:
+  - python -m pytest --cov-report term-missing --cov=recommandations
+  coverage: '/^TOTAL.+?(\d+\%)$/'

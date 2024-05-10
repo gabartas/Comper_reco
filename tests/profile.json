@@ -1,0 +1,3946 @@
+{
+    "name": "Programmer_en_langage_Shell_V16112020",
+    "objects": [
+        {
+            "name": "Afficher_la_valeur_dune_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Obtenir_la_valeur_affectée_à_une_variable",
+                    "Connaître_la_notion_de_variable",
+                    "Obtenir_la_valeur_affectée_à_une_variable",
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:742",
+                    "asker:743",
+                    "asker:744"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:993",
+                    "asker:1009"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Modifier_la_valeur_de_une_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Affecter_une_valeur_à_une_variable",
+                    "Affecter_une_valeur_à_une_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:736",
+                    "asker:749",
+                    "asker:716"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Renommer_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:762",
+                    "asker:1007"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Affecter_une_valeur_à_une_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:736",
+                    "asker:749",
+                    "asker:716"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Tester_létat_dun_fichier",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_les_tests_détat_de_fichier"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:998",
+                    "asker:999"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Créer_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:739",
+                    "asker:741"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Afficher_le_manuel_dune_commande_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Exécuter_des_commandes_Unix",
+                    "Exécuter_des_commandes_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:990",
+                    "asker:1002"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Modifier_les_droits_dun_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_droits_sous_Unix",
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_droits_sous_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:738",
+                    "asker:733",
+                    "asker:734",
+                    "asker:1000"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Afficher_le_contenu_de_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:991",
+                    "asker:1001"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Modifier_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:992",
+                    "asker:1005",
+                    "asker:1004"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Obtenir_la_valeur_affectée_à_une_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:748",
+                    "asker:742",
+                    "asker:743",
+                    "asker:735"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Comparer_des_nombres",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Réaliser_des_tests_conditionnels",
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_les_opérateurs_de_comparaison_numérique",
+                    "Connaître_les_opérateurs_de_comparaison_numérique"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:994",
+                    "asker:995",
+                    "asker:1020"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Récupérer_des_données_saisies_par_lutilisateur",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Ecrire_des_scripts_interactifs"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:758",
+                    "asker:759",
+                    "asker:761",
+                    "asker:756"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_les_paramètres_dun_script"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_paramètre"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:751",
+                    "asker:744",
+                    "asker:745"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Banaliser_un_caractère",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_banalisation_de_caractères"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:747",
+                    "asker:748",
+                    "asker:746"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Comparer_des_chaînes_de_caractères",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_les_opérateurs_de_comparaison_de_caractères"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:996",
+                    "asker:1021",
+                    "asker:997"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Supprimer_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:760",
+                    "asker:1006"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:754",
+                    "asker:755",
+                    "asker:756"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_de_comparaison_numérique",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:comparaisonsnumeriques"
+                ],
+                "hasTraining": [
+                    "asker:995"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_redirection_entrée_et_sortie",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellesunix"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_commandes_de_base_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Exécuter_des_commandes_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellcmdbasefichiers",
+                    "webtraffic:shellcmdnano",
+                    "webtraffic:shellcmdtouch"
+                ],
+                "hasTraining": [
+                    "asker:757",
+                    "asker:1003"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_dollar(cmd)",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:substitutioncommandedollarparenthese"
+                ],
+                "hasTraining": [
+                    "asker:1014"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_droits_sous_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shelldroitsunix"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_banalisation_de_caractères",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellbanalisationchar"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_variables_denvironnement",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellvariablesenv",
+                    "asker:752",
+                    "asker:756"
+                ],
+                "hasTraining": [
+                    "asker:1010"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_case",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Exécuter_de_manière_sélective_des_commandes"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructioncase"
+                ],
+                "hasTraining": [
+                    "asker:1028",
+                    "asker:1029"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_seq",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Générer_une_séquence_de_nombres"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionseq"
+                ],
+                "hasTraining": [
+                    "asker:1030",
+                    "asker:1031"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_le_caractère_de_substitution_de_commande",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:749",
+                    "asker:754",
+                    "asker:755"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_IfThenElifElse",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxeifthenelif"
+                ],
+                "hasTraining": [
+                    "asker:1027",
+                    "asker:1026"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_set",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:commandeset"
+                ],
+                "hasTraining": [
+                    "asker:1012",
+                    "asker:993"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_variable",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellobtentionaffectation",
+                    "webtraffic:shellnotionvariable",
+                    "webtraffic:shellaffectation"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_while",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Répéter_des_instructions"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionwhile"
+                ],
+                "hasTraining": [
+                    "asker:1018",
+                    "asker:1019"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_paramètre",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_les_paramètres_dun_script"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellarguments"
+                ],
+                "hasTraining": [
+                    "asker:751"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_dollar((__))",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_calculs_arithmétiques"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxedollarparentheseparenthese"
+                ],
+                "hasTraining": [
+                    "asker:1013"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_de_comparaison_de_caractères",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:comparaisonschaines"
+                ],
+                "hasTraining": [
+                    "asker:997"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_fichier_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellnotionfichier"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_CrochetCrochet",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxecrochetcrochet"
+                ],
+                "hasTraining": [
+                    "asker:1020",
+                    "asker:1021"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_variables_spéciales",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_les_paramètres_dun_script",
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "asker:745",
+                    "webtraffic:shellvariablesspeciales"
+                ],
+                "hasTraining": [
+                    "asker:750",
+                    "asker:751",
+                    "asker:1008"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_for",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Répéter_des_instructions"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionfor"
+                ],
+                "hasTraining": [
+                    "asker:1016",
+                    "asker:1017"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_expression_arithmétique",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_calculs_arithmétiques"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Banaliser_un_caractère"
+                ],
+                "hasLearning": [
+                    "webtraffic:shellexpressionarithmetique"
+                ],
+                "hasTraining": [
+                    "asker:754",
+                    "asker:755"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_logiques",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:operateurslogiques"
+                ],
+                "hasTraining": [
+                    "asker:1023",
+                    "asker:1022"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_tests_détat_de_fichier",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_droits_sous_Unix"
+                ],
+                "hasLearning": [
+                    "webtraffic:testsetatfichier"
+                ],
+                "hasTraining": [
+                    "asker:1024",
+                    "asker:998"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Exécuter_des_commandes_Unix",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Afficher_le_manuel_dune_commande_Unix"
+                ],
+                "hasKnowledge": [
+                    "Connaître_les_commandes_de_base_Unix"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Manipuler_des_fichiers_Unix",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Modifier_les_droits_dun_fichier_Unix",
+                    "Afficher_le_contenu_de_un_fichier_Unix",
+                    "Modifier_un_fichier_Unix",
+                    "Renommer_un_fichier_Unix",
+                    "Supprimer_un_fichier_Unix",
+                    "Créer_un_fichier_Unix",
+                    "Créer_un_fichier_Unix"
+                ],
+                "hasKnowledge": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_redirection_entrée_et_sortie",
+                    "Connaître_la_notion_de_droits_sous_Unix",
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_redirection_entrée_et_sortie",
+                    "Connaître_la_notion_de_droits_sous_Unix"
+                ],
+                "isComposedOf": [],
+                "requires": [
+                    "Exécuter_des_commandes_Unix",
+                    "Exécuter_des_commandes_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Manipuler_les_paramètres_dun_script",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres"
+                ],
+                "hasKnowledge": [
+                    "Connaître_la_notion_de_paramètre",
+                    "Connaître_les_variables_spéciales"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Manipuler_des_variables",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Afficher_la_valeur_dune_variable",
+                    "Obtenir_la_valeur_affectée_à_une_variable",
+                    "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+                    "Modifier_la_valeur_de_une_variable",
+                    "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+                    "Affecter_une_valeur_à_une_variable",
+                    "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+                    "Obtenir_la_valeur_affectée_à_une_variable",
+                    "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+                    "Affecter_une_valeur_à_une_variable"
+                ],
+                "hasKnowledge": [
+                    "Connaître_les_variables_spéciales",
+                    "Connaître_les_variables_denvironnement",
+                    "Connaître_la_notion_de_variable",
+                    "Connaître_la_syntaxe_de_instruction_set",
+                    "Connaître_les_variables_spéciales",
+                    "Connaître_les_variables_denvironnement",
+                    "Connaître_la_syntaxe_de_instruction_set",
+                    "Connaître_la_notion_de_variable"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Ecrire_des_scripts_interactifs",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Récupérer_des_données_saisies_par_lutilisateur",
+                    "Récupérer_des_données_saisies_par_lutilisateur"
+                ],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Manipuler_des_fichiers_Unix",
+                    "Manipuler_des_variables",
+                    "Manipuler_les_paramètres_dun_script",
+                    "Substituer_une_commande_par_son_exécution",
+                    "Répéter_des_instructions",
+                    "Réaliser_des_tests_conditionnels",
+                    "Exécuter_de_manière_sélective_des_commandes",
+                    "Générer_une_séquence_de_nombres",
+                    "Manipuler_les_paramètres_dun_script",
+                    "Substituer_une_commande_par_son_exécution",
+                    "Répéter_des_instructions",
+                    "Réaliser_des_tests_conditionnels",
+                    "Exécuter_de_manière_sélective_des_commandes",
+                    "Générer_une_séquence_de_nombres"
+                ],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Réaliser_des_calculs_arithmétiques",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_dollar((__))",
+                    "Connaître_la_notion_de_expression_arithmétique"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Substituer_une_commande_par_son_exécution",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Banaliser_un_caractère"
+                ],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_dollar(cmd)",
+                    "Connaître_la_notion_de_banalisation_de_caractères",
+                    "Connaître_le_caractère_de_substitution_de_commande"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Répéter_des_instructions",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_for",
+                    "Connaître_la_syntaxe_de_instruction_while"
+                ],
+                "isComposedOf": [],
+                "requires": [
+                    "Manipuler_des_variables",
+                    "Manipuler_les_paramètres_dun_script",
+                    "Substituer_une_commande_par_son_exécution",
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Réaliser_des_tests_conditionnels",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Comparer_des_nombres",
+                    "Comparer_des_chaînes_de_caractères",
+                    "Tester_létat_dun_fichier"
+                ],
+                "hasKnowledge": [
+                    "Connaître_les_opérateurs_de_comparaison_de_caractères",
+                    "Connaître_les_opérateurs_de_comparaison_numérique",
+                    "Connaître_la_syntaxe_CrochetCrochet",
+                    "Connaître_les_opérateurs_logiques",
+                    "Connaître_la_syntaxe_IfThenElifElse",
+                    "Connaître_les_tests_détat_de_fichier"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Exécuter_de_manière_sélective_des_commandes",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_case"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Générer_une_séquence_de_nombres",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_seq"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Affecter_une_valeur_à_un_ou_plusieurs_paramètres_de_position",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:993",
+                    "asker:1009"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Affecter_une_valeur_à_une_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:736",
+                    "asker:716",
+                    "asker:749"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Tester_létat_dun_fichier",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_les_tests_détat_de_fichier"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:998",
+                    "asker:999"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Créer_un_fichier_Unix",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:739",
+                    "asker:741"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Obtenir_la_valeur_affectée_à_une_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:748",
+                    "asker:742",
+                    "asker:743",
+                    "asker:735"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_les_paramètres_dun_script"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_paramètre"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:751",
+                    "asker:744",
+                    "asker:745"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Récupérer_des_données_saisies_par_lutilisateur",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Ecrire_des_scripts_interactifs"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:758",
+                    "asker:759",
+                    "asker:761",
+                    "asker:756"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Comparer_des_chaînes_de_caractères",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_les_opérateurs_de_comparaison_de_caractères"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:1021",
+                    "asker:996",
+                    "asker:997"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Banaliser_un_caractère",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_banalisation_de_caractères"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:747",
+                    "asker:748",
+                    "asker:746"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Interpréter_de_façon_numérique_la_valeur_dune_variable",
+            "type": "Skills",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [
+                    "Manipuler_des_variables"
+                ],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_variable"
+                ],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:754",
+                    "asker:755",
+                    "asker:756"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_redirection_entrée_et_sortie",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellesunix"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_commandes_de_base_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Exécuter_des_commandes_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellcmdnano",
+                    "webtraffic:shellcmdbasefichiers",
+                    "webtraffic:shellcmdtouch"
+                ],
+                "hasTraining": [
+                    "asker:1003",
+                    "asker:757"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_de_comparaison_numérique",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:comparaisonsnumeriques"
+                ],
+                "hasTraining": [
+                    "asker:995"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_dollar(cmd)",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:substitutioncommandedollarparenthese"
+                ],
+                "hasTraining": [
+                    "asker:1014"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_droits_sous_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shelldroitsunix"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_banalisation_de_caractères",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellbanalisationchar"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_seq",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Générer_une_séquence_de_nombres"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionseq"
+                ],
+                "hasTraining": [
+                    "asker:1030",
+                    "asker:1031"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_variables_denvironnement",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellvariablesenv",
+                    "asker:752",
+                    "asker:756"
+                ],
+                "hasTraining": [
+                    "asker:1010"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_case",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Exécuter_de_manière_sélective_des_commandes"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructioncase"
+                ],
+                "hasTraining": [
+                    "asker:1028",
+                    "asker:1029"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_le_caractère_de_substitution_de_commande",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Substituer_une_commande_par_son_exécution"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [
+                    "asker:749",
+                    "asker:754",
+                    "asker:755"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_IfThenElifElse",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxeifthenelif"
+                ],
+                "hasTraining": [
+                    "asker:1027",
+                    "asker:1026"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_set",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:commandeset"
+                ],
+                "hasTraining": [
+                    "asker:1012",
+                    "asker:993"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_while",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Répéter_des_instructions"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionwhile"
+                ],
+                "hasTraining": [
+                    "asker:1018",
+                    "asker:1019"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_variable",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellobtentionaffectation",
+                    "webtraffic:shellnotionvariable",
+                    "webtraffic:shellaffectation"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_paramètre",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_les_paramètres_dun_script"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellarguments"
+                ],
+                "hasTraining": [
+                    "asker:751"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_de_comparaison_de_caractères",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:comparaisonschaines"
+                ],
+                "hasTraining": [
+                    "asker:997"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_dollar((__))",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_calculs_arithmétiques"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxedollarparentheseparenthese"
+                ],
+                "hasTraining": [
+                    "asker:1013"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_fichier_Unix",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_des_fichiers_Unix"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:shellnotionfichier"
+                ],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_CrochetCrochet",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:syntaxecrochetcrochet"
+                ],
+                "hasTraining": [
+                    "asker:1020",
+                    "asker:1021"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_variables_spéciales",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Manipuler_les_paramètres_dun_script",
+                    "Manipuler_des_variables"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "asker:745",
+                    "webtraffic:shellvariablesspeciales"
+                ],
+                "hasTraining": [
+                    "asker:750",
+                    "asker:751",
+                    "asker:1008"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_syntaxe_de_instruction_for",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Répéter_des_instructions"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:instructionfor"
+                ],
+                "hasTraining": [
+                    "asker:1016",
+                    "asker:1017"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_la_notion_de_expression_arithmétique",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_calculs_arithmétiques"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Banaliser_un_caractère"
+                ],
+                "hasLearning": [
+                    "webtraffic:shellexpressionarithmetique"
+                ],
+                "hasTraining": [
+                    "asker:754",
+                    "asker:755"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_opérateurs_logiques",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [
+                    "webtraffic:operateurslogiques"
+                ],
+                "hasTraining": [
+                    "asker:1023",
+                    "asker:1022"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Connaître_les_tests_détat_de_fichier",
+            "type": "Knowledge",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [],
+                "isComposedOf": [],
+                "requires": [
+                    "Connaître_la_notion_de_fichier_Unix",
+                    "Connaître_la_notion_de_droits_sous_Unix"
+                ],
+                "hasLearning": [
+                    "webtraffic:testsetatfichier"
+                ],
+                "hasTraining": [
+                    "asker:1024",
+                    "asker:998"
+                ],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Exécuter_des_commandes_Unix",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Afficher_le_manuel_dune_commande_Unix"
+                ],
+                "hasKnowledge": [
+                    "Connaître_les_commandes_de_base_Unix"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Manipuler_les_paramètres_dun_script",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Obtenir_la_valeur_de_un_ou_plusieurs_paramètres"
+                ],
+                "hasKnowledge": [
+                    "Connaître_la_notion_de_paramètre",
+                    "Connaître_les_variables_spéciales"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Réaliser_des_calculs_arithmétiques",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_dollar((__))",
+                    "Connaître_la_notion_de_expression_arithmétique"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Substituer_une_commande_par_son_exécution",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Banaliser_un_caractère"
+                ],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_dollar(cmd)",
+                    "Connaître_la_notion_de_banalisation_de_caractères",
+                    "Connaître_le_caractère_de_substitution_de_commande"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Répéter_des_instructions",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_for",
+                    "Connaître_la_syntaxe_de_instruction_while"
+                ],
+                "isComposedOf": [],
+                "requires": [
+                    "Manipuler_les_paramètres_dun_script",
+                    "Manipuler_des_variables",
+                    "Substituer_une_commande_par_son_exécution",
+                    "Réaliser_des_tests_conditionnels"
+                ],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Réaliser_des_tests_conditionnels",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [
+                    "Comparer_des_nombres",
+                    "Comparer_des_chaînes_de_caractères",
+                    "Tester_létat_dun_fichier"
+                ],
+                "hasKnowledge": [
+                    "Connaître_les_opérateurs_de_comparaison_de_caractères",
+                    "Connaître_la_syntaxe_CrochetCrochet",
+                    "Connaître_les_opérateurs_de_comparaison_numérique",
+                    "Connaître_les_opérateurs_logiques",
+                    "Connaître_la_syntaxe_IfThenElifElse",
+                    "Connaître_les_tests_détat_de_fichier"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Exécuter_de_manière_sélective_des_commandes",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_case"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        },
+        {
+            "name": "Générer_une_séquence_de_nombres",
+            "type": "Competency",
+            "mastery": 0,
+            "trust": 0,
+            "cover": 0,
+            "relations": {
+                "isSkillOf": [],
+                "isKnowledgeOf": [],
+                "composes": [],
+                "hasSkill": [],
+                "hasKnowledge": [
+                    "Connaître_la_syntaxe_de_instruction_seq"
+                ],
+                "isComposedOf": [],
+                "requires": [],
+                "hasLearning": [],
+                "hasTraining": [],
+                "isComplexificationOf": [],
+                "isLevelOfUnderstandingOf": []
+            }
+        }
+    ],
+    "resources": [
+        {
+            "id": "asker:742",
+            "name": "Questionnaire à réponse courte - Obtenir la valeur affectée à une variable",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/742",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:743",
+            "name": "Question à choix multiple - Afficher la valeur d'une variable",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/743",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:744",
+            "name": "Questionnaire à réponse courte - Obtenir la valeur d'un paramètre",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/744",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:993",
+            "name": "Affecter une valeur à un ou plusieurs paramètres de position",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/993",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1009",
+            "name": "Affecter une valeur à un ou plusieurs paramètres de position - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1009",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:736",
+            "name": "Questionnaire à réponse courte - Affecter une valeur à une variable",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/736",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:749",
+            "name": "Question à réponse courte - Affecter le résultat d'une commande à une variable",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/749",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:716",
+            "name": "QCM (question unique)",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/716",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:762",
+            "name": "Question à réponse courte - Renommer un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/762",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1007",
+            "name": "Renommer un fichier Unix - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1007",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:998",
+            "name": "Tester l'état d'un fichier",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/998",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:999",
+            "name": "Tester l'état d'un fichier",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/999",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:739",
+            "name": "Question à choix multiple - Créer un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/739",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:741",
+            "name": "Questionnaire à réponse courte - Créer un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/741",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:990",
+            "name": "Afficher le manuel d'une commande Unix",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/990",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1002",
+            "name": "Afficher le manuel d'une commande Unix",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/1002",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:738",
+            "name": "Appariement : droits - Modifier les droits d'un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/738",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:733",
+            "name": "Question à choix multiple - Modifier les droits d'un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/733",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:734",
+            "name": "Appariement - Modifier les droits d'un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/734",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1000",
+            "name": "Modifier les droits d'un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/1000",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:991",
+            "name": "Afficher le contenu d'un ficheir Unix",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/991",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1001",
+            "name": "Afficher le contenu d'un fichier Unix avec la commande less",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1001",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:992",
+            "name": "Modifier un fichier Unix",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/992",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1005",
+            "name": "Modifier un fichier Unix - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1005",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1004",
+            "name": "Modifier des fichiers Unix - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1004",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:748",
+            "name": "Appariement : caractère spécial - Banaliser/commenter un caractère",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/748",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:735",
+            "name": "Question à choix multiple - Obtenir la valeur affectée à une variable",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/735",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:994",
+            "name": "Comparer 2 nombres",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/994",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:995",
+            "name": "Comparer des nombres",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/995",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1020",
+            "name": "Comparer des nombres - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1020",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:758",
+            "name": "Question à réponse courte - Récupérer des données saisies par l'utilisateur",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/758",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:759",
+            "name": "Questionnaire à choix multiple - Récupérer des données saisies par l'utilisateur",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/759",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:761",
+            "name": "Questionnaire à choix multiple - Les options de la commande read",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 4,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/761",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:756",
+            "name": "Appariement : instructions Shell - Connaître les instructions principales",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 4,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/756",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:751",
+            "name": "Question à choix multiple - Obtenir la valeur d'un paramètre",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/751",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:745",
+            "name": "Question à choix multiple - Obtenir la valeur de plusieurs paramètres",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/745",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:747",
+            "name": "Questionnaire à réponse courte - Banaliser un caractère",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 3,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/747",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:746",
+            "name": "Question à choix multiple - Banaliser un caractère",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/746",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:996",
+            "name": "Comparer des chaînes de caractères",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/996",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1021",
+            "name": "Comparer des chaînes de caractères - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1021",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:997",
+            "name": "Comparer des chaînes de caractères - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/997",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:760",
+            "name": "Question à réponse courte - Supprimer un fichier",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/760",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1006",
+            "name": "Supprimer un fichier Unix - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1006",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:754",
+            "name": "Questionnaire à choix multiple - Interpréter de manière numérique une variable",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/754",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:755",
+            "name": "Question à réponse courte - Interpréter de façon numérique la valeur d'une variable",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 3,
+            "typicalLearningTime": 4,
+            "learningPlatform": "asker",
+            "location": "https: //asker.univ-lyon1.fr/front/#/learner/model/755",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:comparaisonsnumeriques",
+            "name": "Programmation Shell - comparaisons numériques",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "tr",
+            "location": "https://traffic.irit.fr/~jbroisin/ComparaisonsNumeriques.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellesunix",
+            "name": "Entrées/sorties sous Unix",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 8,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/ESUnix.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:757",
+            "name": "Appariement : commandes Unix - Connaître les commandes de base Unix",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 4,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/757",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1003",
+            "name": "Connaître les commandes de base Unix - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1003",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:shellcmdbasefichiers",
+            "name": "Commandes de base pour la manipulation de fichiers",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 10,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/CmdBase01.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellcmdnano",
+            "name": "L'éditeur Nano",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https: //traffic.irit.fr/~jbroisin/TP5/Nano.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellcmdtouch",
+            "name": "Commande pour la création d'un fichier vide",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/CmdTouch.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1014",
+            "name": "Connaître la syntaxe $(cmd) - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1014",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:substitutioncommandedollarparenthese",
+            "name": "Programmation Shell - substitution commande dollar parenthese",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/SubstitutionCommandeDollarParenthese.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shelldroitsunix",
+            "name": "Notion de droits sous Unix",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 6,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/DroitsUnix.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellbanalisationchar",
+            "name": "Banalisation d'un caractère",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 3,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/BanalisationChar.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1010",
+            "name": "Connaître les variables d'environnement - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1010",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:shellvariablesenv",
+            "name": "Variables d'environnement en Shell",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/VariablesEnv.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:752",
+            "name": "Question à réponse courte - Connaître les variables d'environnement",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/752",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1028",
+            "name": "Connaître la syntaxe de l'instruction case - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1028",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1029",
+            "name": "Connaître la syntaxe de l'instruction case - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1029",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:instructioncase",
+            "name": "Programmation Shell - l'instruction case",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/InstructionCase.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1030",
+            "name": "Syntaxe de l'instruction seq - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 3,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1030",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1031",
+            "name": "Connaître la syntaxe de l'instruction seq - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 3,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1031",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:instructionseq",
+            "name": "Programmation Shell - instruction seq",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/InstructionSeq.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1027",
+            "name": "Connaître la syntaxe conditionnelle if - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1027",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1026",
+            "name": "Connaître la syntaxe conditionnelle if - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1026",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:syntaxeifthenelif",
+            "name": "Programmation Shell - syntaxe If Then Elif",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/SyntaxeIfThenElif.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1012",
+            "name": "Connaître la syntaxe de l'instruction set - Choix Multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1012",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:commandeset",
+            "name": "Programmation Shell - commande set",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/CommandeSet.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellobtentionaffectation",
+            "name": "Obtention et affichage de la valeur affectée à une variable",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 3,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/ObtentionAffichage.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellnotionvariable",
+            "name": "Notion de variable en Shell",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/NotionVariable.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellaffectation",
+            "name": "Affectation d'une valeur à une variable",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 2,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/Affectation.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1018",
+            "name": "Connaître la syntaxe de l'instruction while - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1018",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1019",
+            "name": "Connaître la syntaxe de l'instruction while - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 3,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1019",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:instructionwhile",
+            "name": "Programmation Shell - l'instruction while",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/InstructionWhile.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellarguments",
+            "name": "Paramètres positionnels",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 3,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/Arguments.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1013",
+            "name": "Connaître la syntaxe $(()) - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1013",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:syntaxedollarparentheseparenthese",
+            "name": "Programmation Shell - syntaxe $((...))",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/SyntaxeDollarParentheseParenthese.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:comparaisonschaines",
+            "name": "Programmation Shell - comparaisons chaines caractères",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/ComparaisonChaineCaracteres.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellnotionfichier",
+            "name": "Notion de fichier sous Unix",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 12,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/NotionFichier.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:syntaxecrochetcrochet",
+            "name": "Programmation Shell - syntaxe []",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/SyntaxeCrochetCrochet.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:750",
+            "name": "Appariement : variables spéciales - Connaître les variables spéciales",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 4,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/750",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1008",
+            "name": "Connaître les variables spéciales - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1008",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:shellvariablesspeciales",
+            "name": "Variables spéciales en Shell",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/VarSpeciales.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1016",
+            "name": "Connaître la syntaxe de l'instruction for - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1016",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1017",
+            "name": "Connaître la syntaxe de l'instruction for - Réponses courtes",
+            "interactivityType": "active",
+            "learningResourceType": "fill-in",
+            "significanceLevel": 2,
+            "difficulty": 3,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1017",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:instructionfor",
+            "name": "Programmation Shell - l'instruction for",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/InstructionFor.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "webtraffic:shellexpressionarithmetique",
+            "name": "Expressions arithmétiques en Shell",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 1,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "Serveur web traffic",
+            "location": "https://traffic.irit.fr/~jbroisin/TP5/ExpressionArithmetique.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1023",
+            "name": "Connaître les opérateurs logiques - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 1,
+            "difficulty": 2,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1023",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "asker:1022",
+            "name": "Connaître les opérateurs logiques - Appariements",
+            "interactivityType": "active",
+            "learningResourceType": "matching",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1022",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:operateurslogiques",
+            "name": "Programmation Shell - opérateurs logiques",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/OperateursLogiques.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        },
+        {
+            "id": "asker:1024",
+            "name": "Connaître les tests d'état de fichier - Choix multiples",
+            "interactivityType": "active",
+            "learningResourceType": "choice",
+            "significanceLevel": 2,
+            "difficulty": 3,
+            "typicalLearningTime": 5,
+            "learningPlatform": "asker",
+            "location": "https://asker.univ-lyon1.fr/front/#/learner/model/1024",
+            "author": "ext_Julien.Broisin",
+            "language": "fr",
+            "generative": true
+        },
+        {
+            "id": "webtraffic:testsetatfichier",
+            "name": "Programmation Shell - tests état fichier",
+            "interactivityType": "expositive",
+            "learningResourceType": "text",
+            "significanceLevel": 2,
+            "difficulty": 1,
+            "typicalLearningTime": 5,
+            "learningPlatform": "traffic.irit.fr",
+            "location": "https://traffic.irit.fr/~jbroisin/TestsEtatFichier.pdf",
+            "author": "Julien Broisin",
+            "language": "fr",
+            "generative": false
+        }
+    ],
+    "colors": [
+        "0.25",
+        "0.5",
+        "0.75"
+    ],
+    "computedAt": {
+        "date": "2020-11-16 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "UTC"
+    }
+}

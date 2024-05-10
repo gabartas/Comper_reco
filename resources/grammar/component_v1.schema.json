@@ -1,0 +1,38 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"$id": "http://yourdomain.com/schemas/myschema.json",
+	
+	"type": "object",
+	"properties": {
+		"predicates": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Object_id": {
+						"type": "string",
+						"pattern": "^p_.+"
+					},
+					"Object_name": {"type": "string"},
+					"Object_class": {
+						"type": "string",
+						"const": "predicate"
+					},
+					"Object_type": {
+						"type": "string",
+						"enum": ["comper", "expert"]
+					},
+					"Object_description": {"type": "string"},
+					"components": {
+						"type": "array",
+						"items": {"type": "string"},
+						"uniqueItems": true
+					},
+					"formula": {"type": "string"}
+				},
+				"additionalProperties": false,
+				"required": ["Object_id", "Object_name", "Object_class", "Object_type", "Object_description", "components", "formula"]
+			}
+		}
+	}
+}

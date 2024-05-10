@@ -1,0 +1,877 @@
+{
+    "pedagogic_strategy": {
+        "Object_id": "PS_1",
+        "Object_name": "Strategy Pedagogique Shell - (ref 83)",
+        "Object_class": "pedagogic_strategy",
+        "Object_type": "expert",
+        "Object_description": "",
+        "authors": [
+            "Julien Broisin",
+            "Louis Sablayrolles"
+        ],
+        "version": "2.0",
+        "grammar_name": "grammar_v3.schema.json",
+        "public_visibility": true,
+        "components": [
+            "SP1",
+            "SP2",
+            "SP3",
+            "SP4",
+            "SP5",
+            "SPb"
+        ],
+        "content": {
+            "objective": {
+                "maxObjectives": 3,
+                "defaultIntention": "Revision"
+            },
+            "selection_parameters": {
+                "weightInitObjectif": 0.8,
+                "alpha": 0.75,
+                "weight_r": {
+                    "Pre_requis": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": -0.4,
+                        "isLeverOfUnderstandingOf": 0,
+                        "requires": 0.7
+                    },
+                    "Decouverte": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": -0.4,
+                        "isLeverOfUnderstandingOf": 0,
+                        "requires": 0.3
+                    },
+                    "Soutien": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": -0.4,
+                        "isLeverOfUnderstandingOf": 0.3,
+                        "requires": 0.5
+                    },
+                    "Perfectionnement": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": 0.7,
+                        "isLeverOfUnderstandingOf": 0,
+                        "requires": 0.3
+                    },
+                    "Revision": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": -0.4,
+                        "isLeverOfUnderstandingOf": 0,
+                        "requires": 0
+                    },
+                    "descendants": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": 0,
+                        "isLeverOfUnderstandingOf": 0,
+                        "requires": 0
+                    },
+                    "levier_comprehension": {
+                        "isComposedOf": -0.15,
+                        "hasKnowledge": -0.05,
+                        "hasSkill": -0.1,
+                        "isComplexifiedBy": -0.4,
+                        "isLeverOfUnderstandingOf": 0.5,
+                        "requires": 0
+                    }
+                },
+                "selection_procedures": [
+                    "SP1",
+                    "SP2",
+                    "SP3",
+                    "SP4",
+                    "SP5",
+                    "SPb"
+                ]
+            },
+            "ordering_parameters": {
+                "prioTags": {
+                    "Pre_requis": {
+                        "Tag_prerequis": 1,
+                        "Tag_decouverte": 2,
+                        "Tag_remediation": 2,
+                        "Tag_renforcement": 3,
+                        "Tag_approfondissement": 6,
+                        "Tag_a_travailler": 6
+                    },
+                    "Decouverte": {
+                        "Tag_prerequis": 6,
+                        "Tag_decouverte": 1,
+                        "Tag_remediation": 6,
+                        "Tag_renforcement": 6,
+                        "Tag_approfondissement": 6,
+                        "Tag_a_travailler": 6
+                    },
+                    "Soutien": {
+                        "Tag_prerequis": 1,
+                        "Tag_decouverte": 4,
+                        "Tag_remediation": 3,
+                        "Tag_renforcement": 5,
+                        "Tag_approfondissement": 6,
+                        "Tag_a_travailler": 2
+                    },
+                    "Perfectionnement": {
+                        "Tag_prerequis": 1,
+                        "Tag_decouverte": 5,
+                        "Tag_remediation": 3,
+                        "Tag_renforcement": 4,
+                        "Tag_approfondissement": 2,
+                        "Tag_a_travailler": 6
+                    },
+                    "Revision": {
+                        "Tag_prerequis": 1,
+                        "Tag_decouverte": 2,
+                        "Tag_remediation": 3,
+                        "Tag_renforcement": 4,
+                        "Tag_approfondissement": 6,
+                        "Tag_a_travailler": 5
+                    }
+                }
+            },
+            "resource_parameters": {
+                "list_metadata_order": [
+                    "interactivityType",
+                    "typicalLearningTime"
+                ],
+                "ordering_metadata": {
+                    "interactivityType": [
+                        "expositive",
+                        "mixed",
+                        "active"
+                    ],
+                    "difficulty": "ascending",
+                    "typicalLearningTime": "descending"
+                },
+                "restriction_parameters": {
+                    "MAX_RESOURCES_NODE": 0,
+                    "MAX_TIME_WORK_NODE": 0,
+                    "MAX_RESOURCES_OBJECTIVE": 0,
+                    "MAX_TIME_WORK_OBJECTIVE": 0,
+                    "MAX_RESOURCES_RECO": 0,
+                    "MAX_TIME_WORK_RECO": 0
+                }
+            }
+        }
+    },
+    "selection_procedures": [
+        {
+            "Object_id": "SP1",
+            "Object_name": "Selection intention pre_requis",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SR1-1",
+                "SR1-2"
+            ],
+            "content": {
+                "intentions": [
+                    "Pre_requis"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [
+                        "requires"
+                    ],
+                    "depth_max": 1,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SR1-1",
+                        "SR1-2"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SP2",
+            "Object_name": "Selection intention decouverte",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SR2-1"
+            ],
+            "content": {
+                "intentions": [
+                    "Decouverte"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [],
+                    "depth_max": 0,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SR2-1"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SP3",
+            "Object_name": "Selection intention soutien",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SR3-1",
+                "SR3-2",
+                "SR3-3"
+            ],
+            "content": {
+                "intentions": [
+                    "Soutien"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [],
+                    "depth_max": 0,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SR3-1",
+                        "SR3-2",
+                        "SR3-3"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SP4",
+            "Object_name": "Selection intention perfectionnement",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SR4-1",
+                "SR4-2",
+                "p_maitrised"
+            ],
+            "content": {
+                "intentions": [
+                    "Perfectionnement"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [
+                        "isComplexifiedBy"
+                    ],
+                    "depth_max": 1,
+                    "condition_selection": "p_maitrised"
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SR4-1",
+                        "SR4-2"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SP5",
+            "Object_name": "Selection intention revision",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SR5-1",
+                "SR5-2",
+                "SR5-3"
+            ],
+            "content": {
+                "intentions": [
+                    "Revision"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [],
+                    "depth_max": 0,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SR5-1",
+                        "SR5-2",
+                        "SR5-3"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SPa",
+            "Object_name": "Selection intention descendants",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SRa-1"
+            ],
+            "content": {
+                "intentions": [
+                    "descendants"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [],
+                    "depth_max": 0,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SRa-1"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SPb",
+            "Object_name": "Selection intention levier_comprehension",
+            "Object_class": "selection_procedure",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SRb-1"
+            ],
+            "content": {
+                "intentions": [
+                    "levier_comprehension"
+                ],
+                "initialisation_parameters": {
+                    "relations_to_follow": [
+                        "hasKnowledge",
+                        "hasSkill",
+                        "isComposedOf"
+                    ],
+                    "depth_max": 0
+                },
+                "pretreatement_parameters": {
+                    "relations_to_follow": [
+                        "isUnderstoodBy"
+                    ],
+                    "depth_max": 1,
+                    "condition_selection": ""
+                },
+                "treatment_parameters": {
+                    "selection_rules": [
+                        "SRb-1"
+                    ]
+                }
+            }
+        }
+    ],
+    "selection_rules": [
+        {
+            "Object_id": "SR1-1",
+            "Object_name": "Traitement pre_requis non ou peu ou partiellement maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_prerequis"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Soutien"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR1-2",
+            "Object_name": "Traitement pre_requis maitrise inconnue",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue"
+            ],
+            "content": {
+                "selection_condition": "p_maitrise_inconnue",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_prerequis"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Decouverte"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR2-1",
+            "Object_name": "Traitement decouverte maitrise inconnue",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue_couverture_insuffisante"
+            ],
+            "content": {
+                "selection_condition": "p_maitrise_inconnue_couverture_insuffisante",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_decouverte"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": false,
+                    "intention": []
+                }
+            }
+        },
+        {
+            "Object_id": "SR3-1",
+            "Object_name": "Traitement soutien non ou peu maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_remediation"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Pre_requis",
+                        "levier_comprehension"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR3-2",
+            "Object_name": "Traitement soutien partiellement maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_renforcement"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Pre_requis"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR3-3",
+            "Object_name": "Traitement soutien maitrise inconnue",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue"
+            ],
+            "content": {
+                "selection_condition": "p_maitrise_inconnue",
+                "selection_parameters": {
+                    "isSelected": false,
+                    "tagSelection": []
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Decouverte"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR4-1",
+            "Object_name": "Traitement perfectionnement non peu ou partiellement maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_approfondissement"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Soutien"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR4-2",
+            "Object_name": "Traitement perfectionnement maitrise inconnue",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue"
+            ],
+            "content": {
+                "selection_condition": "p_maitrise_inconnue",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_approfondissement"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Decouverte"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR5-1",
+            "Object_name": "Traitement revision non ou peu ou partiellement maitrise ",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": false,
+                    "tagSelection": []
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Soutien"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SR5-2",
+            "Object_name": "Traitement revision maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrised"
+            ],
+            "content": {
+                "selection_condition": "p_maitrised",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_a_travailler"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": false,
+                    "intention": []
+                }
+            }
+        },
+        {
+            "Object_id": "SR5-3",
+            "Object_name": "Traitement revision maitrise inconnue",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue"
+            ],
+            "content": {
+                "selection_condition": "p_maitrise_inconnue",
+                "selection_parameters": {
+                    "isSelected": false,
+                    "tagSelection": []
+                },
+                "recursion_parameters": {
+                    "hasRecursion": true,
+                    "intention": [
+                        "Decouverte"
+                    ]
+                }
+            }
+        },
+        {
+            "Object_id": "SRa-1",
+            "Object_name": "Traitement descendants non peu ou partiellement maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_remediation"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": false,
+                    "intention": []
+                }
+            }
+        },
+        {
+            "Object_id": "SRb-1",
+            "Object_name": "Traitement levier_comprehension non peu ou partiellement maitrise",
+            "Object_class": "selection_rule",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_peu_partiellement_maitrise"
+            ],
+            "content": {
+                "selection_condition": "p_non_peu_partiellement_maitrise",
+                "selection_parameters": {
+                    "isSelected": true,
+                    "tagSelection": [
+                        "Tag_a_travailler"
+                    ]
+                },
+                "recursion_parameters": {
+                    "hasRecursion": false,
+                    "intention": []
+                }
+            }
+        }
+    ],
+    "predicates": [
+        {
+            "Object_id": "p_maitrise_inconnue",
+            "Object_name": "Predicate maitrise inconnue",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MIN_CONFIANCE_INCONNUE"
+            ],
+            "formula": "confiance_noeud < SEUIL_MIN_CONFIANCE_INCONNUE"
+        },
+        {
+            "Object_id": "p_maitrise_connue",
+            "Object_name": "Predicate maitrise connue",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue"
+            ],
+            "formula": "not (p_maitrise_inconnue)"
+        },
+        {
+            "Object_id": "p_couverture_insuffisante",
+            "Object_name": "Predicate couverture insuffisante",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MIN_COUVERTURE_SUFFISANTE"
+            ],
+            "formula": "couverture_noeud < SEUIL_MIN_COUVERTURE_SUFFISANTE"
+        },
+        {
+            "Object_id": "p_non_maitrise",
+            "Object_name": "Predicate non maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MAX_NON_MAITRISE",
+                "p_maitrise_connue"
+            ],
+            "formula": "(maitrise_noeud < SEUIL_MAX_NON_MAITRISE) and (p_maitrise_connue)"
+        },
+        {
+            "Object_id": "p_peu_maitrise",
+            "Object_name": "Predicate peu maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MAX_NON_MAITRISE",
+                "SEUIL_MAX_PEU_MAITRISE",
+                "p_maitrise_connue"
+            ],
+            "formula": "(maitrise_noeud >= SEUIL_MAX_NON_MAITRISE) and (maitrise_noeud < SEUIL_MAX_PEU_MAITRISE) and (p_maitrise_connue)"
+        },
+        {
+            "Object_id": "p_partiellement_maitrise",
+            "Object_name": "Predicate partiellement maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MAX_PEU_MAITRISE",
+                "SEUIL_MAX_PARTIELLEMENT_MAITRISE",
+                "p_maitrise_connue"
+            ],
+            "formula": "(maitrise_noeud >= SEUIL_MAX_PEU_MAITRISE) and (maitrise_noeud < SEUIL_MAX_PARTIELLEMENT_MAITRISE) and (p_maitrise_connue)"
+        },
+        {
+            "Object_id": "p_maitrised",
+            "Object_name": "Predicate maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "SEUIL_MAX_PARTIELLEMENT_MAITRISE",
+                "p_maitrise_connue"
+            ],
+            "formula": "(maitrise_noeud > SEUIL_MAX_PARTIELLEMENT_MAITRISE) and (p_maitrise_connue)"
+        },
+        {
+            "Object_id": "p_non_peu_maitrise",
+            "Object_name": "Predicate non ou peu maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_maitrise",
+                "p_peu_maitrise"
+            ],
+            "formula": "(p_non_maitrise) or (p_peu_maitrise)"
+        },
+        {
+            "Object_id": "p_non_peu_partiellement_maitrise",
+            "Object_name": "Predicate non ou peu ou partiellement maitrise",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_non_maitrise",
+                "p_peu_maitrise",
+                "p_partiellement_maitrise"
+            ],
+            "formula": "(p_non_maitrise) or (p_peu_maitrise) or (p_partiellement_maitrise)"
+        },
+        {
+            "Object_id": "p_maitrise_inconnue_couverture_insuffisante",
+            "Object_name": "Predicate maitrise inconnue ou couverture insuffisante",
+            "Object_class": "predicate",
+            "Object_type": "comper",
+            "Object_description": "",
+            "components": [
+                "p_maitrise_inconnue",
+                "p_couverture_insuffisante"
+            ],
+            "formula": "(p_maitrise_inconnue) or (p_couverture_insuffisante)"
+        }
+    ],
+    "parameters": [
+        {
+            "name": "SEUIL_MAX_NON_MAITRISE",
+            "value": 0.25
+        },
+        {
+            "name": "SEUIL_MAX_PEU_MAITRISE",
+            "value": 0.5
+        },
+        {
+            "name": "SEUIL_MAX_PARTIELLEMENT_MAITRISE",
+            "value": 0.75
+        },
+        {
+            "name": "SEUIL_MIN_CONFIANCE_INCONNUE",
+            "value": 0.1
+        },
+        {
+            "name": "SEUIL_MIN_COUVERTURE_SUFFISANTE",
+            "value": 0.8
+        }
+    ]
+}

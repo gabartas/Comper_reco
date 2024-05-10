@@ -1,0 +1,653 @@
+{
+	"$schema": "http://json-schema.org/schema#",
+	"$id": "http://yourdomain.com/schemas/myschema.json",
+
+	"definitions": {
+		"intention": {
+			"$id": "#/definitions/intention",
+			"type": "string",
+			"enum": [
+				"Pre_requis", 
+				"Decouverte", 
+				"Soutien", 
+				"Perfectionnement", 
+				"Revision",
+				"levier_comprehension",
+				"descendants"
+			]
+		},
+		"relation": {
+			"$id": "#/definitions/relation",
+			"type": "string",
+			"enum": [
+				"emptyRel", 
+				"isComposedOf",
+				"composes", 
+				"comprises", 
+				"isComprisedIn", 
+				"hasKnowledge", 
+				"isKnowledgeOf", 
+				"hasLearning", 
+				"isLearningOf", 
+				"isSkillOf", 
+				"hasSkill", 
+				"hasTraining", 
+				"isTrainingOf", 
+				"isComplexifiedBy", 
+				"isComplexificationOf", 
+				"isLeverOfUnderstandingOf", 
+				"isUnderstoodBy", 
+				"isRequiredBy", 
+				"requires"
+			]
+		},
+		"tagSelection": {
+			"$id": "#/definitions/tagSelection",
+			"type": "string",
+			"enum": [
+				"Tag_prerequis", 
+				"Tag_decouverte", 
+				"Tag_remediation", 
+				"Tag_renforcement",
+				"Tag_approfondissement",
+				"Tag_a_travailler" 
+			]
+		},
+		"metadataNames": {
+			"$id": "#/definitions/metadataNames",
+			"type": "string",
+			"enum": [
+				"difficulty", 
+				"generative", 
+				"interactivityType", 
+				"language", 
+				"learningPlateform", 
+				"learningRessourceType", 
+				"significanceLevel", 
+				"typicalLearningTime"
+			]
+		}
+	},
+
+	"type": "object",
+	"properties": {
+		"pedagogic_strategy" : {
+			"type": "object",
+				"properties": {
+					"Object_id": {
+						"type": "string",
+						"pattern": "^PS[A-Za-z0-9_]+"
+					},
+					"Object_name": {
+						"type": "string"
+					},
+					"Object_class": {
+						"type": "string",
+						"const": "pedagogic_strategy"
+					},
+					"Object_type": {
+						"type": "string",
+						"enum": [
+							"comper", 
+							"expert"
+						]
+					},
+					"Object_description": {
+						"type": "string"
+					},
+					"authors": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"uniqueItems": true
+					},
+					"version": {
+						"type": "string"
+					},
+					"grammar_name": {
+						"type": "string"
+					},
+					"public_visibility": {
+						"type": "boolean"
+					},
+					"components": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"uniqueItems": true
+					},
+					"content": {
+						"type": "object",
+						"properties": {
+							"objective": {
+								"type": "object",
+								"properties": {
+									"maxObjectives": {
+										"type": "number",
+										"minimum": 0
+									},
+									"defaultIntention": {
+										"type": "string",
+										"$ref": "#/definitions/intention"
+									}
+								}
+					         },
+							"selection_parameters": {
+								"type": "object",
+								"properties": {
+									"weightInitObjectif": {
+										"type": "number",
+										"minimum": 0,
+										"maximum": 1
+									},
+									"alpha": {
+										"type": "number"
+									},
+									"weight_r": {
+										"type": "object",
+										"items": {
+											"type": "object",
+											"propertyNames": {
+												"$ref": "#/definitions/intention"
+											},
+											"patternProperties": {
+												".*": {
+													"type": "object",
+													"propertyNames": {
+														"$ref": "#/definitions/relation"
+													},
+													"patternProperties": {
+														".*": {
+															"type": "number"
+														}
+													}
+												}
+											}
+										}
+									},
+									"selection_procedures": {
+										"type": "array",
+										"items": {
+											"type": "string",
+											"pattern": "^SP[a-z0-9_]+"
+										},
+										"uniqueItems": true
+									}
+								},
+								"additionalProperties": false,
+								"required": [
+									"weightInitObjectif", 
+									"alpha", 
+									"weight_r", 
+									"selection_procedures"
+								]
+							},
+							"ordering_parameters": {
+								"type": "object",
+								"properties": {
+									"prioTags": {
+										"type": "object",
+										"propertyNames": {
+											"$ref": "#/definitions/intention"
+										},
+										"patternProperties": {
+											".*": {
+												"type": "object",
+												"propertyNames": {
+													"$ref": "#/definitions/tagSelection"
+												},
+												"patternProperties": {
+													".*": {
+														"type": "integer",
+														"minimum": 1
+													}
+												}
+											}
+										}
+									},
+									"prioPredicates": {
+										"type": "object",
+										"propertyNames": {
+											"$ref": "#/definitions/intention"
+										},
+										"patternProperties": {
+											".*": {
+												"type": "object",
+												"propertyNames": {
+													"type": "string"
+												},
+												"patternProperties": {
+													".*": {
+														"type": "integer",
+														"minimum": 1
+													}
+												}
+											}
+										}
+									}
+								},
+								"additionalProperties": false,
+								"required": ["prioTags"]
+							},
+							"resource_parameters": {
+								"type": "object",
+								"properties": {
+									"list_metadata_order": {
+										"type": "array",
+										"items": {
+											"type": "string",
+											"ref": "#/definitions/metadataNames"
+										}
+									},
+									"ordering_metadata": {
+										"type": "object",
+										"propertyNames": {
+											"type": "string",
+											"ref": "#/definitions/metadataNames"
+										},
+										"patternProperties": {
+											".*": {
+											"oneOf": [
+												{
+													"type": "array",
+													"items": {
+														"type": "string"
+													}
+												},
+												{
+													"type": "string",
+													"enum": [
+														"ascending", 
+														"descending", 
+														"alpha", 
+														"inv_alpha"
+													]
+												}
+											]
+										}
+									}
+								},
+								"restriction_parameters": {
+									"type": "object",
+									"properties":{
+										"MAX_RESOURCES_NODE": {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										},
+										"MAX_TIME_WORK_NODE": {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										},
+										"MAX_RESOURCES_OBJECTIVE" : {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										},
+										"MAX_TIME_WORK_OBJECTIVE": {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										},
+										"MAX_RESOURCES_RECO" : {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										},
+										"MAX_TIME_WORK_RECO": {
+											"type": "integer",
+											"minimum": 0,
+											"default": 0
+										}
+									},
+									"additionalProperties": false,
+									"required": [
+										"MAX_RESOURCES_NODE", 
+										"MAX_TIME_WORK_NODE", 
+										"MAX_TIME_WORK_RECO", 
+										"MAX_RESOURCES_RECO"
+									]
+								}
+							},
+							"additionalProperties": false,
+							"required": [
+								"list_metadata_order", 
+								"ordering_metadata", 
+								"restriction_parameters"
+							]
+						}
+					},
+					"additionalProperties": false,
+					"required": [
+						"selection_parameters", 
+						"ordering_parameters", 
+						"resource_parameters"
+					]
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"Object_id", 
+				"Object_name", 
+				"Object_class", 
+				"Object_type", 
+				"Object_description",
+				"authors",
+				"version",
+				"grammar_name",
+				"public_visibility",
+				"components", 
+				"content"
+			]
+		},
+		"selection_procedures": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"Object_id": {
+						"type": "string",
+						"pattern": "^SP[a-z0-9_]+"
+					},
+					"Object_name": {
+						"type": "string"
+					},
+					"Object_class": {
+						"type": "string",
+						"const": "selection_procedure"
+					},
+					"Object_type": {
+						"type": "string",
+						"enum": ["comper", "expert"]
+					},
+					"Object_description": {
+						"type": "string"
+					},
+					"components": {
+						"type": "array",
+						"items": {
+							"type": "string"
+						},
+						"uniqueItems": true
+					},
+					"content": {
+						"type": "object",
+						"properties": {
+							"intentions": {
+								"type": "array",
+								"items": {
+									"$ref": "#/definitions/intention"
+								},
+								"uniqueItems": true
+							},
+							"initialisation_parameters": {
+								"type": "object",
+								"properties": {
+									"relations_to_follow" : {
+										"type": "array",
+										"items": {
+											"$ref": "#/definitions/relation"
+										}
+									},
+									"depth_max" : {
+										"type": "integer",
+										"minimum": 0
+									}
+								},
+								"additionalProperties": false,
+								"required": [
+									"relations_to_follow", 
+									"depth_max"
+								]
+							},
+							"pretreatement_parameters": {
+								"type": "object",
+								"properties": {
+									"relations_to_follow" : {
+										"type": "array",
+										"items": {
+											"$ref": "#/definitions/relation"
+										}
+									},
+									"depth_max" : {
+										"type": "integer",
+										"minimum": 0
+									},
+									"condition_selection": {
+										"type": "string"
+									}
+								},
+								"additionalProperties": false,
+								"required": [
+									"relations_to_follow",
+									"depth_max",
+									"condition_selection"
+								]
+							},
+							"treatment_parameters" : {
+								"type": "object",
+								"properties": {
+									"selection_rules" : {
+										"type": "array",
+										"items": {
+											"type": "string",
+											"pattern": "^SR[a-z0-9_]+[-]{1}[0-9]+"
+										},
+										"uniqueItems": true
+									}
+								},
+								"additionalProperties": false,
+								"required": [
+									"selection_rules"
+								]
+							}
+						},
+						"additionalProperties": false,
+						"required": [
+							"intentions", 
+							"initialisation_parameters", 
+							"pretreatement_parameters", 
+							"treatment_parameters"
+						]
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"Object_id", 
+					"Object_name", 
+					"Object_class", 
+					"Object_type", 
+					"Object_description", 
+					"components",
+					"content"
+				]
+			}
+		}
+	},
+	"selection_rules": {
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"Object_id": {	
+					"type": "string",
+					"pattern": "^SR[a-z0-9]+[-]{1}[0-9]+"
+				},
+				"Object_name": {
+					"type": "string"
+				},
+				"Object_class": {
+					"type": "string",
+					"const": "selection_rule"
+				},
+				"Object_type": {
+					"type": "string",
+					"enum": [
+						"comper",
+						"expert"
+					]
+				},
+				"Object_description": {
+					"type": "string"
+				},
+				"components": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"uniqueItems": true
+				},
+				"content": {
+					"type": "object",
+					"properties": {
+						"selection_condition": {
+							"type": "string"
+						},
+						"selection_parameters": {
+							"type": "object",
+							"properties": {
+								"isSelected" : {
+									"type": "boolean"
+								},
+								"tagSelection" : {
+									"type": "array",
+									"items": {
+										"$ref": "#/definitions/tagSelection"
+									},
+									"uniqueItems": true
+								}
+							},
+							"additionalProperties": false,
+							"required": [
+								"isSelected",
+								"tagSelection"
+							]
+						},
+						"recursion_parameters": {
+							"type": "object",
+							"properties": {
+								"hasRecursion" : {
+									"type": "boolean"
+								},
+								"intention" : {
+									"type": "array",
+									"items": {
+										"$ref": "#/definitions/intention"
+									},
+									"uniqueItems": true
+								}			
+							},
+							"additionalProperties": false,
+							"required": [
+								"hasRecursion",
+								"intention"
+							]
+						}
+					},
+					"additionalProperties": false,
+					"required": [
+						"selection_condition", 
+						"selection_parameters", 
+						"recursion_parameters"
+					]
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"Object_id", 
+				"Object_name", 
+				"Object_class", 
+				"Object_type", 
+				"Object_description", 
+				"components",
+				"content"
+			]
+		}
+	},
+	"predicates": {
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"Object_id": {
+					"type": "string",
+					"pattern": "^p_.+"
+				},
+				"Object_name": {
+					"type": "string"
+				},
+				"Object_class": {
+					"type": "string",
+					"const": "predicate"
+				},
+				"Object_type": {
+					"type": "string",
+					"enum": [
+						"comper", 
+						"expert"
+					]
+				},
+				"Object_description": {
+					"type": "string"
+				},
+				"components": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					},
+					"uniqueItems": true
+				},
+				"formula": {
+					"type": "string"
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"Object_id", 
+				"Object_name", 
+				"Object_class", 
+				"Object_type", 
+				"Object_description", 
+				"components", 
+				"formula"
+			]
+		}
+	},
+	"parameters": {
+		"type": "array",
+		"items": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "string"
+				},
+				"value": {
+					"oneOf": [
+						{
+							"type": "number"
+						},
+						{
+							"type": "string"
+						}
+					]
+				}
+			},
+			"additionalProperties": false,
+			"required": [
+				"name", 
+				"value"
+			]
+		}
+	},
+	"additionalProperties": true,
+	"required": [
+		"pedagogic_strategy",
+		"selection_procedures",
+		"selection_rules",
+		"predicates", 
+		"parameters"
+	]
+}

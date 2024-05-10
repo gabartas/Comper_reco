@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac custom attributes file (Desktop Service Store)
+.DS_Store
+
+# Coverage output
+.coverage
+
+# Virtual Environment
+.venv/
+
+# pytest files
+.pytest_cache/
+data/LOG/83/*
+tests/profile2.json
+tests/prescript_postman.js
+tests/jwtRS256.key
+/data/LOG
